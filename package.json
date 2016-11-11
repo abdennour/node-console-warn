@@ -1,6 +1,6 @@
 {
   "name": "console-warn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "console.warn",
   "main": "index.js",
   "scripts": {

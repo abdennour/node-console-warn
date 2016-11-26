@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/abdennour/.nvm/versions/node/v6.2.1/bin/node',
+1 verbose cli   '/Users/abdennour/.nvm/versions/node/v6.2.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.0.1
+3 info using node@v6.2.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/abdennour/dev/nodejs-plugins/console-warn',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/abdennour/.npm/console-warn/0.0.3/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/abdennour/.npm correctMkdir not in flight; initializing
+10 info lifecycle console-warn@0.0.3~prepublish: console-warn@0.0.3
+11 silly lifecycle console-warn@0.0.3~prepublish: no script for prepublish, continuing
+12 info lifecycle console-warn@0.0.3~prepare: console-warn@0.0.3
+13 silly lifecycle console-warn@0.0.3~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/abdennour/.npm/console-warn/0.0.3/package.tgz',
+14 verbose tar pack   '/Users/abdennour/dev/nodejs-plugins/console-warn' ]
+15 verbose tarball /Users/abdennour/.npm/console-warn/0.0.3/package.tgz
+16 verbose folder /Users/abdennour/dev/nodejs-plugins/console-warn
+17 verbose addLocalTarball adding from inside cache /Users/abdennour/.npm/console-warn/0.0.3/package.tgz
+18 verbose correctMkdir /Users/abdennour/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd console-warn@0.0.3
+20 verbose afterAdd /Users/abdennour/.npm/console-warn/0.0.3/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/abdennour/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/abdennour/.npm/console-warn/0.0.3/package/package.json written
+23 silly publish { name: 'console-warn',
+23 silly publish   version: '0.0.3',
+23 silly publish   description: 'console.warn',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts: { test: 'exit 0' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/abdennour/node-console-warn.git' },
+23 silly publish   keywords: [ 'console', 'warning', 'logging', 'built-in' ],
+23 silly publish   author: { name: 'Abdennour TOUMI', email: 'http://abdennoor.com' },
+23 silly publish   license: 'MIT',
+23 silly publish   bugs: { url: 'https://github.com/abdennour/node-console-warn/issues' },
+23 silly publish   homepage: 'https://github.com/abdennour/node-console-warn#readme',
+23 silly publish   readme: '# console.warn :\n\n ![console-warn demo](https://raw.githubusercontent.com/abdennour/spl/master/js/console-warn-node.png)\n\n- The purpose of this module is not to give many options for logging , it is just give you lightweight the missing API of console : which is here `console.warn`.\n\n- No need documentation, because `console.warn` takes the same arguments as `console.log` . However `console.warn` will be displayed on terminal like above.\n\n# Install :\n\n```\nnpm install console-warn --save;\n```\n\n# How to use :\n\n```js\nrequire(\'console-warn\');\n// or in babel: import info from \'console-warn\';\n\nconsole.warn(new Date()); // log time now\nconsole.warn({firstname: "Abdesslem", age:32}) ; // log Object\nconsole.warn(new Date,[4, 65, 9], {a:"b"}); // I told you : it is like console.log\n```\n\n\n\n# Related modules :\n\nUse also :\n\n- [**console.info**](https://www.npmjs.com/package/console-info)\n\n- [**console.error**](https://www.npmjs.com/package/console-error)\n\n```\nnpm install console-info --save;\nnpm install console-error --save;\n```\n',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   gitHead: '08b360861c484a507ae16c9cafdc501f2757d0a8',
+23 silly publish   _id: 'console-warn@0.0.3',
+23 silly publish   _shasum: '05961588e203297c8a6d403d472901f9f3d7715c',
+23 silly publish   _from: '.' }
+24 info lifecycle console-warn@0.0.3~prepublishOnly: console-warn@0.0.3
+25 silly lifecycle console-warn@0.0.3~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name console-warn
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'console-warn',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'console-warn',
+30 silly mapToRegistry   name: 'console-warn',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/console-warn
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/abdennour/.npm/console-warn/0.0.3/package.tgz
+34 verbose request uri https://registry.npmjs.org/console-warn
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 10:41:03 PM
+37 verbose request using bearer token for auth
+38 verbose request id d7fa1333c4436be7
+39 http request PUT https://registry.npmjs.org/console-warn
+40 http 403 https://registry.npmjs.org/console-warn
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Fri, 11 Nov 2016 19:41:06 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-cdg8721-CDG',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1478893265.198110,VS0,VE945',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/abdennour/.npm/registry.npmjs.org/console-warn on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 0.0.3." : console-warn
+44 verbose stack     at makeError (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+44 verbose stack     at Request._callback (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+44 verbose stack     at Request.self.callback (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/Users/abdennour/.nvm/versions/node/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+45 verbose statusCode 403
+46 verbose pkgid console-warn
+47 verbose cwd /Users/abdennour/dev/nodejs-plugins/console-warn
+48 error Darwin 15.6.0
+49 error argv "/Users/abdennour/.nvm/versions/node/v6.2.1/bin/node" "/Users/abdennour/.nvm/versions/node/v6.2.1/bin/npm" "publish"
+50 error node v6.2.1
+51 error npm  v4.0.1
+52 error code E403
+53 error "You cannot publish over the previously published version 0.0.3." : console-warn
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]

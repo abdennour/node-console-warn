@@ -1,6 +1,6 @@
 # console.warn :
 
- ![console-warn demo](https://raw.githubusercontent.com/abdennour/spl/master/js/console-warn-node.png)
+ ![console-warn demo](https://raw.githubusercontent.com/rathath/bucket/master/img/console-warn-node.png)
 
 - The purpose of this module is not to give many options for logging , it is just give you lightweight the missing API of console : which is here `console.warn`.
 
